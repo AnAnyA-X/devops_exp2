@@ -12,7 +12,7 @@ pipeline {
 
  
 
-                bat 'if exist index (1).html (echo index (1).html Found) else (exit 1)' 
+                bat 'if exist index.html (echo index.html Found) else (exit 1)' 
 
                 bat 'if exist style.css (echo style.css Found) else (exit 1)' 
 
